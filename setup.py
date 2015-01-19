@@ -17,7 +17,8 @@ def read(fname):
 
 setup(
     name = "pysimu",
-    version = "0.0.1c",
+    packages = ['pysimu'], # this must be the same as the name above
+    version = "0.0.1e",
     author = "Juan Manuel Mauricio",
     author_email = "jmmauricio6@gmail.com",
     description = ("Simulations tools"),
@@ -32,13 +33,15 @@ $\hat x = f(t,x)$
 
 Please see README.txt for examples.
 """,
-    license = "BSD",
+    license = "MIT",
     keywords = "dynamics model simulation",
-    url = "http://packages.python.org/pysimu",
-    packages=find_packages(where='.'),
+    url = "https://github.com/jmmauricio/pysimu.git",
+    download_url = 'https://github.com/jmmauricio/pysimu/tarball/0.1', # I'll explain this in a second
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
         "License :: OSI Approved :: BSD License",
     ],
+    install_requires = ['numpy','scipy'],
+    
 )
