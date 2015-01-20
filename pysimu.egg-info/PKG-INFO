@@ -1,12 +1,12 @@
 Metadata-Version: 1.1
 Name: pysimu
-Version: 0.0.1e
+Version: 0.0.2
 Summary: Simulations tools
 Home-page: https://github.com/jmmauricio/pysimu.git
 Author: Juan Manuel Mauricio
 Author-email: jmmauricio6@gmail.com
 License: MIT
-Download-URL: https://github.com/jmmauricio/pysimu/tarball/0.1
+Download-URL: https://github.com/jmmauricio/pysimu/tarball/0.0.2
 Description: This package provides a module pysimu, that can be used to simulate dynamical systems of the form
         ..
         $\hat x = f(t,x)$

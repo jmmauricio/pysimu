@@ -18,7 +18,7 @@ def read(fname):
 setup(
     name = "pysimu",
     packages = ['pysimu'], # this must be the same as the name above
-    version = "0.0.1e",
+    version = "0.0.2",
     author = "Juan Manuel Mauricio",
     author_email = "jmmauricio6@gmail.com",
     description = ("Simulations tools"),
@@ -36,7 +36,7 @@ Please see README.txt for examples.
     license = "MIT",
     keywords = "dynamics model simulation",
     url = "https://github.com/jmmauricio/pysimu.git",
-    download_url = 'https://github.com/jmmauricio/pysimu/tarball/0.1', # I'll explain this in a second
+    download_url = 'https://github.com/jmmauricio/pysimu/tarball/0.0.2', # I'll explain this in a second
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",

@@ -15,6 +15,15 @@ from models.psys import sys_freq_model_1, gen_nc
 
 
 class sim:
+    '''
+    
+    Class to performe simuations
+    
+    
+
+
+    '''    
+    
 
     def __init__(self):
         
