@@ -18,8 +18,6 @@ class sim:
     Class to perform simuations
     
     
-
-
     '''    
     
 
