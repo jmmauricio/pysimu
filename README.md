@@ -8,6 +8,6 @@ This package provides a module pysimu, that can be used to simulate dynamical sy
 
 .. math::
 
-	   $\hat x = f(t,x)$
+   $\hat x = f(t,x)$
 
 
