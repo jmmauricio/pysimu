@@ -299,6 +299,79 @@ class gen_classic_inf:
         if t>0.1:
             self.p_l = self.p_l_0*1.1        
 
+def syn_1:
+    
+    def __init__(self):
+        
+        
+    def f(self.t,x,y):
+        
+        delta = x[0]   # pu     
+        omega = x[1]    # pu
+
+#        self.perturbation(t)
+        
+#        for item in self.__dict__:
+#            to_exec = item + ' = self.' + item
+#            print to_exec
+#            exec(to_exec)    
+
+              
+        H = self.H
+        D = self.D
+        
+        p_m = self.p_m
+
+        v_inf = self.v_inf
+        e = self.e
+        x_pu = self.x_pu
+        Omega_b = self.Omega_b
+       
+        p_e = e*v_inf/x_pu*np.sin(delta)
+         
+        f_1 = ddelta = Omega_b*(omega-1)               
+        f_2 = domega = 1.0/(2.0*H)*(p_m - p_e )        
+
+        dx = np.vstack((f_1,f_2))
+        
+        self.dx = dx
+  
+        self.delta = delta
+        self.omega = omega
+        
+        return dx
+        
+
+    def g(self.t,x,y):
+        
+        delta = x[0]   # pu     
+        omega = x[1]    # pu
+
+#        self.perturbation(t)
+        
+#        for item in self.__dict__:
+#            to_exec = item + ' = self.' + item
+#            print to_exec
+#            exec(to_exec)    
+
+              
+        H = self.H
+        D = self.D
+        
+        p_m = self.p_m
+
+        v_inf = self.v_inf
+        e = self.e
+        x_pu = self.x_pu
+        Omega_b = self.Omega_b
+       
+        p_e = e*v_inf/x_pu*np.sin(delta)
+         
+        ddelta = Omega_b*(omega-1)               
+        domega = 1.0/(2.0*H)*(p_m - p_e )        
+    
+
+    
 
 class gen_nc_2:
     

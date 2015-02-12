@@ -5,6 +5,11 @@ Main pysimu module
 
 Created on Thu Aug 14 20:21:56 2014
 
+
+/home/jmmauricio/Documents/private/pyWork11/PyPsat/src
+
+
+
 @author: jmmauricio-m
 """
 

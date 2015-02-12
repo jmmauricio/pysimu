@@ -24,16 +24,8 @@ setup(
     author = "Juan Manuel Mauricio",
     author_email = "jmmauricio6@gmail.com",
     description = ("Simulations tools"),
-    long_description = """\
-This package provides a module pysimu, that can be used to simulate dynamical systems of the form
-..
-$\hat x = f(t,x)$
+    long_description = """Module to bring a platform to simulate systems based on diferential equations
 
-.. math::
-
-   \frac{ \sum_{t=0}^{N}f(t,k) }{N}
-
-Please see README.txt for examples.
 """,
     license = "MIT",
     keywords = "dynamics model simulation",
