@@ -7,15 +7,8 @@ Author: Juan Manuel Mauricio
 Author-email: jmmauricio6@gmail.com
 License: MIT
 Download-URL: https://github.com/jmmauricio/pysimu/tarball/0.0.3
-Description: This package provides a module pysimu, that can be used to simulate dynamical systems of the form
-        ..
-        $\hat x = f(t,x)$
+Description: Module to bring a platform to simulate systems based on diferential equations
         
-        .. math::
-        
-           rac{ \sum_{t=0}^{N}f(t,k) }{N}
-        
-        Please see README.txt for examples.
         
 Keywords: dynamics model simulation
 Platform: UNKNOWN
